@@ -1,0 +1,26 @@
+.topcontiner{
+    display: flex;
+    justify-content: center;
+    flex: auto;
+    background-color: #1f2937;
+    color: white;
+    flex-wrap: wrap;
+    margin: 0;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin-right: auto;
+    
+}
+#header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    flex: auto;
+}
+.headerlogo{
+    margin-left: auto;
+}
