@@ -1,3 +1,6 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 .topcontiner{
     display: flex;
     justify-content: center;
@@ -6,21 +9,51 @@
     color: white;
     flex-wrap: wrap;
     margin: 0;
+    padding: 0 200px;
 }
 ul{
     list-style-type: none;
     display: flex;
     justify-content: space-between;
-    margin-right: auto;
+    gap: 35px;
     
 }
 #header{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: space-between;
     align-items: center;
-    flex: auto;
+    flex: 1;
 }
 .headerlogo{
-    margin-left: auto;
+    color: #f9faf8;
+    font-size: 24px;
+}
+.signup{
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: 0cm;
+    border-radius: 5px;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 600;
+    height: 40px;
+    width: 100px;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    .main{
+        font-size: 48px;
+        font-weight: extra-bold;
+        flex-wrap: wrap;
+        margin: 0;
+    }
+    
+}
+.photo{
+    flex-shrink: 1;
+    width: 596px;
+    height: 255px;
 }
